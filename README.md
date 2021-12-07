@@ -66,3 +66,29 @@ After pre-processing all missing values are dropped, Separating the label here, 
 In above screen we can see dataset contains total 1752 records and 1226 used for training and 526 used for testing.
 Now click on ‘Run KNN with Uniform Weights’ to generate KNN model with uniform weights and calculate its model accuracy
 
+![image](https://user-images.githubusercontent.com/89390696/145042940-90506631-7ebe-4a58-9180-0e2e46cd7e7f.png)
+
+In above screen we can see with KNN with uniform weights got 96.8% accuracy, now click on ‘Run KNN with distance weights’ to calculate accuracy
+
+![image](https://user-images.githubusercontent.com/89390696/145043108-1021c2d7-1148-46ee-8d50-ef5cf1926d46.png)
+
+In above screen we got 100% accuracy, now we will click on ‘Predict Test Data’button to upload test data and to predict whether test data stock market for both models. 
+accuracy score (>0.95) for most of the models. 
+
+![image](https://user-images.githubusercontent.com/89390696/145043257-2d45c93b-3d3b-4360-b549-c47c80601c12.png)
+
+![image](https://user-images.githubusercontent.com/89390696/145043343-3e1c4e98-e30c-4555-83e7-47f89db2ef95.png)
+
+In above screen for each test data we got forecast values for Apple Stock for each test record. Now click on ‘KNN Accuracy’ button to save the predicted values for each model save in the local directory and Accuracy comparison to both the models
+
+![image](https://user-images.githubusercontent.com/89390696/145043410-40e002ed-55ca-4561-9c79-780e557a9c28.png)
+
+From above graph we can see that distance weights has little bit better better accuracy compare to Uniform weights, in above graph x-axis contains algorithm name and y-axis represents accuracy of that algorithms
+
+Plotting the Prediction for KNN with Uniform Weights:
+
+![image](https://user-images.githubusercontent.com/89390696/145043621-c395a945-16bc-4ea1-89aa-f07bcd9119ad.png)
+
+Plotting the Prediction for KNN with Distance Weights:
+
+![image](https://user-images.githubusercontent.com/89390696/145043715-ad07b2f1-2b6f-468e-85d8-6cf0882653e6.png)
